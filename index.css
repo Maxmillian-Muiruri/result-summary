@@ -120,6 +120,9 @@ h1 {
   color: black;
   align-self: flex-start;
 }
+.rightp {
+  color: #dad6db;
+}
 /* Styling for the reaction container */
 .reaction {
   display: flex;
@@ -171,19 +174,19 @@ h1 {
 
 /* Specific text colors for each category */
 .reaction:nth-child(1) .reaction-icon p {
-  color: #d46d6d; /* Red for Reaction */
+  color: #d46d6d;
 }
 
 .reaction:nth-child(2) .reaction-icon p {
-  color: #e7b15f; /* Yellow for Memory */
+  color: #e7b15f;
 }
 
 .reaction:nth-child(3) .reaction-icon p {
-  color: #5ab69f; /* Green for Verbal */
+  color: #5ab69f;
 }
 
 .reaction:nth-child(4) .reaction-icon p {
-  color: #6a6ce8; /* Blue for Visual */
+  color: #6a6ce8;
 }
 
 /* Styling for the score text */
@@ -200,19 +203,22 @@ h1 {
 }
 
 /* Styling for the continue button */
-.reaction button {
-  width: 200px;
-  padding: 10px;
-  border: none;
-  border-radius: 15px;
-  background-color: #303b59;
+button {
+  width: 100%;
+  padding: 15px 5rem;
+  background: hsl(224, 30%, 27%);
   color: white;
-  font-size: 16px;
+  border: none;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background 0.3s;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  gap: 2rem;
 }
 
-.reaction button:hover {
-  background-color: #4a5680;
+button:hover {
+  background: hsl(224, 30%, 20%);
 }
