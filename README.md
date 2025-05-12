@@ -2,7 +2,6 @@
 
 [view live site]] (https://result-summary-psi.vercel.app/)
 
-
 This project is a frontend UI component that displays a summary of user test results. It is designed to be responsive and visually appealing, following a style guide for colors, typography, and layout.
 
 ![Project Screenshot](./image.png)
@@ -27,14 +26,6 @@ The project uses the Hanken Grotesk font family with weights 500, 700, and 800. 
 
 Fonts and images are stored in the `assets` directory.
 
-## Live Site
-
-[View live site](https://result-summary-psi.vercel.app/)
-
 ## Author
 
 Maxmillin
-<<<<<<< HEAD
-=======
-
->>>>>>> 1711f8cac1de4b979f33e8fa3d47c50d23b144c4
