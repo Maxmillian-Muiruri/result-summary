@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(221, 100%, 96%);
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  /* color: white; */
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 20px 20px 20px 20px;
+  padding: 2rem;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+  padding: 2rem;
+  width: 300px;
+  height: 450px;
+  margin-left: -10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: hsl(241, 100%, 89%);
+  align-self: center;
+  align-content: center;
+}
+
+.left-cicle {
+  display: flex;
+  margin-bottom: 1rem;
+  background-color: rgba(73, 39, 210, 255);
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(150deg, #3a0ca3, #6c00ff);
+  padding: 4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.left-cicle p > span {
+  font-size: 3rem;
+  color: rgba(254, 252, 254, 255);
+}
+.left-cicle p {
+  font-size: 1.2rem;
+  color: rgba(107, 93, 240, 255);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0;
+}
+
+.great {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+.great result-text {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.result-description {
+  font-size: 13px;
+  font-weight: 100;
+  color: hsl(241, 100%, 89%);
+  margin-top: 5px;
+}
+
+/*  styling for the reaction container */
+.summary > h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  align-self: flex-start;
+}
+/* Styling for the reaction container */
+.reaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  gap: 2rem;
+}
+
+/* Specific background colors for each category */
+#reaction {
+  background-color: hsl(353, 100%, 98%);
+}
+
+#memory {
+  background-color: hsl(33, 100%, 98%);
+}
+
+#verbal {
+  background-color: hsl(158, 73%, 97%);
+
+  padding: 10px 20px;
+}
+
+#visual {
+  background-color: hsl(240, 83%, 98%);
+  padding: 10px 20px;
+}
+
+/* Styling for the icon and text container */
+.reaction-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reaction-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.reaction-icon p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Specific text colors for each category */
+.reaction:nth-child(1) .reaction-icon p {
+  color: #d46d6d; /* Red for Reaction */
+}
+
+.reaction:nth-child(2) .reaction-icon p {
+  color: #e7b15f; /* Yellow for Memory */
+}
+
+.reaction:nth-child(3) .reaction-icon p {
+  color: #5ab69f; /* Green for Verbal */
+}
+
+.reaction:nth-child(4) .reaction-icon p {
+  color: #6a6ce8; /* Blue for Visual */
+}
+
+/* Styling for the score text */
+.reaction-text .score {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  color: #303b59;
+  font-weight: bold;
+}
+
+.reaction-text .score span {
+  opacity: 0.5;
+}
+
+/* Styling for the continue button */
+.reaction button {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #303b59;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reaction button:hover {
+  background-color: #4a5680;
+}
