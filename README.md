@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 # Results Summary Component
+
+[view live site]] (https://result-summary-psi.vercel.app/)
+
 
 This project is a frontend UI component that displays a summary of user test results. It is designed to be responsive and visually appealing, following a style guide for colors, typography, and layout.
 
@@ -26,6 +28,4 @@ Fonts and images are stored in the `assets` directory.
 ## Author
 
 Maxmillin
-=======
-[view live site]] (https://result-summary-psi.vercel.app/)
->>>>>>> 187b07e5b9521842589f9906204209405095e4c2
+
