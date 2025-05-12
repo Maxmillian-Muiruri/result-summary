@@ -2,6 +2,9 @@
 
 [view live site]] (https://result-summary-psi.vercel.app/)
 
+![Project Screenshot](./image.png)
+
+
 
 This project is a frontend UI component that displays a summary of user test results. It is designed to be responsive and visually appealing, following a style guide for colors, typography, and layout.
 
