@@ -220,7 +220,7 @@ button {
 }
 
 button:hover {
-  background: hsl(224, 30%, 20%);
+  background-color: #4535f1;
 }
 
 /* Media query for smaller screens */
